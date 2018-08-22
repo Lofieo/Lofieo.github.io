@@ -1,0 +1,129 @@
+body {
+  font-family: helvetica neue;
+}
+
+body {
+	background-image: url(https://scontent.fcpt1-1.fna.fbcdn.net/v/t1.0-9/17191051_600830113443417_111503078279312768_n.jpg?_nc_cat=0&oh=32a81890d0061b4d04a2c044991c06f2&oe=5BC610E3);
+	background-size: cover;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 0px;
+}
+
+a:hover {
+	color: red;
+}
+h1:hover {
+	color: lime;
+}
+
+h3 {
+	color: rgb(50,115,230);
+	text-decoration: unset;
+}
+
+h4 { 
+	color: red;
+}
+
+h1 {
+	color: rgb(210,128,92);
+	height: 200px
+}
+h1:hover {
+	color: rgb(157,127,91);
+}
+nav {
+  background: transparent;
+  padding: .35em 0;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 2.5em;
+  color: rgb(17,128,103);
+}
+
+nav ul li a {
+  color: rgb(204,199,44);
+}
+
+nav.nav-sticky {
+  position: -webkit-sticky;
+  position: sticky; top: 0px;
+}
+
+header {
+  background-position: 100px 5px
+  color: red;
+  display: flex;
+  min-height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar {
+  height: 4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  opacity: 0.25;
+  background: rgb(44,79,79);
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-top: 2.0em;
+}
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  background: transparent;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end;
+}
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: #00b7f5;
+}
+
+ .navigation a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(204,166,44);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+
+  @media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+@media all and (max-width: 600px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+}
+

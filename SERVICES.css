@@ -1,0 +1,140 @@
+body {
+	background-image:url(https://scontent.fcpt1-1.fna.fbcdn.net/v/t1.0-9/12802891_450201905172906_5564339766091204079_n.jpg?_nc_cat=0&oh=85ac2f55254155af6434e8d9db373087&oe=5BCA8FE4);
+	background-size: cover;
+}
+
+h5 {
+	position: absolute;
+	bottom: 5px
+	right: 5px;
+	color: gold;
+}
+
+h4 {
+	color: green;
+}
+
+.container {
+	align-items: flex-start;
+}
+
+a {
+  text-decoration: none;
+}
+
+b {
+	color: red;
+}
+
+nav {
+    font-family: monospace;
+}
+
+ul {
+  background: transparent;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    color: #fff;
+  background: transparent;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+li a {
+  color: rgb(134,189,41);
+}
+
+li:hover,
+li:focus-within {
+    background: red;
+    background-image:url(file:///C:/Users/2LOFFI-GAME/Pictures/lineo.png);
+	background-size: cover;
+    cursor: pointer;
+}
+
+li:focus-within a {
+  outline: none;
+}
+
+ul li ul {
+    background: transparent;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+}
+
+ul li ul li {
+    clear: both;
+  width: 100%;
+}
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+    margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+    height: 142px; 
+}
+.site-footer {
+  background: transparent;
+}
+
+/* Mostly: http://ryanfait.com/sticky-footer/ */
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+    margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+    height: 142px; 
+}
+.site-footer {
+  background: transparent;
+}
+
